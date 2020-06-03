@@ -82,6 +82,11 @@ pusher.connection.bind( 'error', function( err ) {
 });
 ```
 
+To connect to a socket
+```js
+socket.connect();
+```
+
 You may disconnect again by invoking the `disconnect` method:
 
 ```js
@@ -205,3 +210,5 @@ And to bind to disconnections:
 ```js
 socket.connection.bind('disconnected', callback);
 ```
+
+
